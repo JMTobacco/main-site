@@ -1,0 +1,73 @@
+.app__splash {
+    padding: 0;
+  
+    &__intro .gutters {
+      align-items: center;
+      background-color: $app-color-alt;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      h1 {
+        font-size: $font-size-h2 !important;
+        margin: 0 auto ($grid-gutter-width / 3);
+        max-width: 52rem;
+        padding: 2rem;
+  
+        @include sm {
+          font-size: $font-size-h1 !important;
+        }
+      }
+  
+      p {
+        margin-bottom: $grid-gutter-width;
+        padding-left: $grid-gutter-width*2;
+        padding-right: $grid-gutter-width*2;
+      }
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        padding: 0;
+        min-width: percentage(3/3);
+  
+        > li {
+          width: percentage(2 / 2);
+  
+          @include md {
+            width: percentage(2 / 2);
+          }
+        }
+      }
+      &__age {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: $grid-gutter-width;
+    
+        &__cell {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          min-height: 10rem;
+        }
+      }
+    }
+  .verification__subtitle {
+    padding-top: 1em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    &a{
+    &:hover {
+      text-decoration: none;
+  }
+  }
+}
+
+  #thanks {
+    color: $app-color;
+  }

@@ -1,0 +1,30 @@
+.tmp
+.sass-cache
+.publish
+coverage/
+dist/
+node_modules/
+reports/
+webpack.stats.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Visual Studio Code
+.vscode
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Config
+.env
+.editorconfig
+.codeclimate.yml
+.babelrc
+.eslintrc
+.flowconfig
+.stylelintrc
+.travis.yml

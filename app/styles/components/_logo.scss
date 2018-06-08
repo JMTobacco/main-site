@@ -1,0 +1,39 @@
+$speed: 1;
+
+.app__logo {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 8px;
+
+  .isvg {
+    display: block;
+    line-height: 0;
+
+    svg {
+      height: auto;
+      max-height: 100%;
+    }
+  }
+
+  // .path-2 {
+  //   animation-delay: #{$speed}s;
+  // }
+}
+
+@keyframes swap-colors {
+  0% {
+    fill: #BD9A05;
+  }
+
+  25% {
+    fill: #BD9A05;
+  }
+
+  50% {
+    fill: #BD9A05;
+  }
+
+  75% {
+    fill: #BD9A05;
+  }
+}

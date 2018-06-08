@@ -1,0 +1,32 @@
+{
+  "Dominican": {
+    "name": "Dominican",
+    "description": "BD18w4jiu4!!",
+    "wrappers": ["Classic", "Sumatra", "Maduro", "Conneticut", "Corojo"]
+  },
+  "Dominican-Honey": {
+    "name": "Dominican",
+    "description": "BD18w4jiu4!!",
+    "wrappers": ["Classic", "Sumatra", "Maduro", "Conneticut", "Corojo"]
+  },
+  "Dominican-Boy-Girl": {
+    "name": "Dominican",
+    "description": "BD18w4jiu4!!",
+    "wrappers": ["Classic", "Sumatra", "Maduro", "Conneticut", "Corojo"]
+  },
+  "Espanola": {
+    "name": "admin",
+    "description": "BD18w4jiu4!!",
+    "wrappers": "graphql"
+  },
+  "Maduro": {
+    "name": "admin",
+    "description": "BD18w4jiu4!!",
+    "wrappers": "graphql"
+  },
+  "Nicaraguan": {
+    "name": "admin",
+    "description": "BD18w4jiu4!!",
+    "wrappers": "graphql"
+  }
+}
